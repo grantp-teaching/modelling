@@ -1,0 +1,19 @@
+digraph G {
+
+	node [shape=box, margin=0];
+    edge [arrowhead=crowodot, arrowtail=teetee, dir=both];
+
+// entities
+	Distributor;
+	Order;
+	Order_tool;
+	Tool;
+	Can_supply;
+
+// relationships
+	Distributor -> Order ;
+	Order -> Order_tool ;
+	Order_tool -> Tool;
+	Distributor -> Can_supply;
+	Can_supply -> Tool;
+}

@@ -89,7 +89,7 @@ Composite attribute
 :   composed of multiple components, each with independent existence.
     (e.g. address)
 
-Single / multi-valued attributes
+Single / multi-valued  attributes
 --------------------------------
 
 Derived attributes
