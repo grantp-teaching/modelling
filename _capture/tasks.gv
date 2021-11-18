@@ -1,0 +1,18 @@
+digraph G {
+
+	node [shape=box, margin=0];
+    edge [arrowhead=crowodot, arrowtail=teetee, dir=both];
+
+// entities
+	Task;
+	Project;
+	Client;
+	Assignment;
+	Staff;
+
+// relationships
+	Project -> Task [label="contains"];
+	Client -> Project [label="for" arrowtail=teeodot];
+	Project -> Assignment [label="has staff"];
+	Staff -> Assignment [label="works on"];
+}
