@@ -1,6 +1,5 @@
 digraph {
     rankdir=LR
-    node [shape=point style=invis]
 
     f -> F [arrowhead=crowodot]
     e -> E [arrowhead=crowtee]
